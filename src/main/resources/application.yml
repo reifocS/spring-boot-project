@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://tai.db.elephantsql.com:5432/vszwekpf
+    username: vszwekpf
+    password: JfaRffG5fzDaveGgiEq5nkl0jd8x1hA-
+    driver-class-name: org.postgresql.Driver
+    tomcat:
+      max-wait: 1000
+      max-active: 3
+      test-on-borrow: true
+    initialization-mode:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+
